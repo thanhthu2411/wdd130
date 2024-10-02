@@ -18,4 +18,18 @@ img{
     width: 300px;
 }
 
-/* */
+.grey{
+    background-color: gray;
+}
+
+
+#active{
+    background-color: rgb(57, 57, 223);
+    color: white;
+}
+
+
+
+
+
+/*for class use . and for id use #  */ 
