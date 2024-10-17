@@ -1,0 +1,48 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.top {
+    object-fit: cover;
+    width: 100%;
+    margin: 0; /* Remove any default margin */
+    padding: 0;
+    display: block;
+}
+
+.three img {
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(70, 64, 64);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.three {
+    /* background-color: gray;
+    margin-top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px; /* Space between images */
+    background-color: gray;
+    padding: 20px;
+    margin: 0;
+}
+
+/* .one {
+    margin-left: 200px;
+}
+
+.two {
+    margin-left: 200px;
+}
+
+.threee{
+    margin-left: 200px;
+} */
+
+.one, .two, .threee {
+    margin-left: 0;
+}

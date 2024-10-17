@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,10 +8,16 @@
 
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
     width: 80px;
+}
+
+#logo-link {
+    padding-top: 5px;
 }
 
 header {
@@ -19,6 +28,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -32,6 +42,9 @@ nav a:hover {
 
 .home-title {
     color: rgb(1, 53, 1);
+    font-family: 'Merriweather', 'san-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -50,6 +63,10 @@ h4 {
     background-color: rgb(46, 96, 75);
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -60,8 +77,25 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 #background {
@@ -71,16 +105,29 @@ main section {
 
 .msg {
     background-color: #94ba9b;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color:rgb(30, 22, 22);
+    font-family: 'Raleway', 'san-serif';
 }
 
+.msg p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
 
 footer {
     background-color: #27624b;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {

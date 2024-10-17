@@ -1,7 +1,91 @@
-body{
-    background-color: rgb(5, 146, 75);
-    font-family: Arial, Helvetica, sans-serif;
+/*#content {
+    max-width: 2000px;
+    background-color: rgb(50, 95, 50);
+    margin: 0 auto;
+}
 
+body {
+    text-align: center;
+}
+
+h1 {
+    color:white;
+}
+
+nav a {
+    background-color: rgb(67, 77, 113);
+    justify-content:center;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: lightcoral;
+}
+
+img {
+    width: 150px;
+}
+
+section p {
+    color: white
+}
+
+section a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.msg {
+    height: 200px;
+    width: 500px;
+    background-color: rgb(79, 111, 106);
+    margin: 0 auto;
+    color: beige;
+    padding-bottom: 1em;
+    display: flex;
+}
+
+.msg p {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    line-height: 1.5em;
+    font-size: larger;
+}
+
+.facebook img {
+    width: 30px;
+    padding-top: 1em;
+}
+
+footer {
+    text-align: 0.5em;
+    background-color: beige;
+}
+
+section a:hover {
+    color: lightblue;
+}
+
+footer p {
+    padding-bottom:1em;
+}
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: rgba(5, 146, 75, .5);
+    font-family: Merriweather, Tahoma, sans-serif;
+/* for 2-letter font, use " " */
+    margin: 0;
+}
+
+.content {
+    max-width: 80px;
+    margin: auto;
 }
 
 nav, footer{
@@ -33,7 +117,7 @@ img{
     display: block;
     margin: 0 auto;
     /* 0 is the space up and down, 
-    auto is for the space on the left and right*/
+    auto is for the space on the left and right */
 }
 
 #active{
@@ -56,7 +140,15 @@ p a{
     padding: 0px;
 }
 
+p {
+    box-sizing: border-box;
+    border: 10px black;
+}
 
 footer p {
     color: black;
+} 
+
+footer img {
+    width: 80px;
 }
