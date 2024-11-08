@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 #content {
     max-width: 1600px;
@@ -218,6 +217,175 @@ footer p a:hover {
 footer a:hover {
     color: bisque;
 }
+
+
+/*Rivers page CSS file*/
+
+#rivers-title {
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#title-msg {
+    grid-row: 1/2;
+    /* grid-row: 1/; */
+    text-align: center;
+}
+
+#title-msg h2{
+    font-size: 60px;
+    /* font-family: 'Raleway', 'san-serif'; */
+    color: rgb(1, 53, 1);
+    font-family: 'Merriweather', 'san-serif';
+    font-size: 4em;
+}
+
+.overview {
+    font-size: 1.4em;
+    max-width: 600px;
+    display: inline-block;
+    font-family: 'Raleway', 'san-serif';
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1; 
+    }
+    50% {
+      opacity: 0; 
+    }
+    100% {
+      opacity: 1; 
+    }
+  }
+
+.state {
+    font-size: 1.2em;
+    font-family: 'Kode Mono', Helvetica, sans-serif;
+    animation: blink 1s infinite;
+}
+
+#states {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 20px;
+}
+
+#states h4 {
+    text-align: center;
+    font-size: 1em;
+    /* vertical-align: middle; */
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#arizona-river {
+    grid-column: 2/10;
+    grid-row: 2/3;
+}
+
+#idaho-river {
+    grid-column: 2/10;
+    grid-row: 4/5;
+}
+
+#utah-river {
+    grid-column: 2/10;
+    grid-row: 6/7;
+}
+
+
+#arizona-river, #idaho-river, #utah-river {
+    margin: 100px 0;
+    /* height: 400px; */
+}
+
+.river-img1, .river-img3{
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.river-img1 {
+    width: 500px;
+}
+
+.river-img3 {
+    width: 500px;
+}
+
+.river-img2 {
+    float:right;
+    margin: 0 0 30px 30px;
+}
+
+.river-grid img {
+    transition: transform .5s;
+    box-shadow: 5px 5px 5px #6f7364;
+}
+
+.river-grid img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+.river-grid h3 {
+    font-size: 1.5em;
+    font-family: 'Raleway', 'san-serif';
+}
+
+.river-grid p {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  END of CSS file for Rivers page*/
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
