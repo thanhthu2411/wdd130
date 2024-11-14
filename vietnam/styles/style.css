@@ -1,0 +1,66 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+                    /* HEADER*/
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    /* background-color: #f8eddd; */
+}
+
+#company {
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo_link {
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+#company p{
+    margin: 0;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    vertical-align: top;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    height: 28px;
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-button{
+    height: 30px;
+    width: 36px;
+    background-color: rgb(245, 238, 238);
+    border: 1px solid gray ;
+    border-radius: 2px;
+}
+
