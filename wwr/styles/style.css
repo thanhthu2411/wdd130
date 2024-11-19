@@ -418,6 +418,10 @@ form {
     border-radius: 10px;
   }
 
+  .contact {
+    padding: 5px;
+  }
+
   #feedback {
     background-color: antiquewhite;
     /* position: absolute;
