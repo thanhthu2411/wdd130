@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    /* background-color: white; */
     margin: 0;
     padding: 0;
 }
@@ -95,7 +95,27 @@ form{
     background-color: rgb(245, 238, 238);
     border: 1px solid gray ;
     border-radius: 2px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
+
+.toolkit{
+    position: absolute;
+    background-color: rgb(183, 180, 180);
+    color: white;
+    padding: 4px 8px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.search-button:hover .toolkit{
+    opacity: 1;
+}
+
 
                 /*Homepage - WELCOME-BOX */
 .welcome{
@@ -510,3 +530,72 @@ footer p {
 .name{
     font-family: 'Pacifico', Helvetica, sans-serif;
 }
+
+
+
+
+
+/* MEDIA */
+
+
+@media screen and (max-width: 1055px) {
+
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+   
+    form {
+        justify-content: center;
+    }
+    .welcome, .overview, .home-grid, .reason {
+        display: block;
+        height: auto;
+    }
+
+    .welcome{
+        margin-top: -250px;
+    }
+
+    .vietnam-img, .message, .destination, .destination-grid, .welcome-tours, .tours-grid, .destination-msg {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    p, a {
+        font-size: 1em;
+    }
+
+    .destination {
+        padding-top: 40px;
+    }
+
+    .destination-grid p, .destination-grid h3 {
+        font-size: 1.2em;
+    }
+
+    .halong-img{
+        float: left;
+        margin: 0 30px 30px 0;
+    }
+
+    .destination-msg h1{
+        font-size: 2.2em;
+    }
+
+    .tours-grid p {
+        font-size: 1em;
+        line-height: 1.1em;
+        margin: 15px 18px;
+
+    }
+
+    .tours-grid h3{
+        font-size: 1.3em;
+    } 
+
+}   
