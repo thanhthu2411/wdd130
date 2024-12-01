@@ -543,6 +543,11 @@ footer p {
     nav, footer {
         flex-direction: column;
     }
+
+    nav {
+        padding-bottom: 15px;
+    }
+
     nav a {
         display: block;
         padding: 10px;
