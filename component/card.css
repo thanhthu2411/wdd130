@@ -39,8 +39,8 @@
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: lightblue;
+    color: rgb(37, 34, 34);
     transform: rotateY(180deg);
   }
   
