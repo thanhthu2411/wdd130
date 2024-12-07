@@ -39,7 +39,7 @@ header {
     flex-direction: column;
 }
 
-#logo_link {
+#logo_link, #logo_link1 {
     text-align: center;
 }
 
@@ -185,7 +185,7 @@ form{
     transition: transform 0.3s;
 }
 
-.join:click {
+.join:active {
     transform: scale(1.2);
 }
 
@@ -342,7 +342,7 @@ form{
         /* TOURS WELCOME */
 #tours-box{
     width: 100%;
-    padding-top: -100px;
+    margin-top: -250px;
     height: 800px;
     margin-bottom: 80px;
 }
