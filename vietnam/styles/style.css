@@ -174,8 +174,9 @@ form{
     margin-bottom: 40px;
 }
 
-/* hover doesn't work */
+
 .join{
+    display: inline-block;
     padding: 12px 15px;
     text-decoration: none;
     border-radius: 5px;
@@ -185,8 +186,9 @@ form{
     transition: transform 0.3s;
 }
 
-.join:active {
+.join:hover {
     transform: scale(1.2);
+    background-color: #4e8760;
 }
 
         /*Homepage - MAIN PART */
@@ -231,6 +233,15 @@ form{
     padding: 40px;
     font-size: 1.4em;
     background-color: rgb(238, 228, 228);
+}
+
+.destination-link{
+    text-decoration: none;
+}
+
+.destination-link:hover{
+    color:#27624b;
+    text-decoration: underline;
 }
 
 .vietnam-img{
@@ -603,4 +614,15 @@ footer p {
         font-size: 1.3em;
     } 
 
+    .our-websites{
+        padding-bottom: 20px;
+    }
+
+    .social{
+        padding-bottom: 0;
+    }
+
+    .social a{
+        margin-left: 25px;
+    }
 }   
