@@ -28,7 +28,7 @@ p{
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #3d9353;
+    background-color: #2C5E3D;
     opacity: 0.8;
     font-size: 1.2em;
 }
@@ -253,7 +253,7 @@ form{
 }
 
 .message {
-    background-color:#7f9384;
+    background-color:#7FAF8B;
     box-shadow: 3px 3px 7px rgb(160, 159, 159);
     color: #333333;
     grid-column: 4/7;
