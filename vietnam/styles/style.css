@@ -50,7 +50,7 @@ header {
 #company p{
     margin-top: 8px;
     text-align: center;
-    color:antiquewhite;
+    color:white;
     font-family: 'Pacifico', Helvetica, sans-serif;
     font-weight: 400;
 }
@@ -66,7 +66,7 @@ nav a {
     text-decoration: none;
     padding: 50px;
     vertical-align: top;
-    color: #f8eddd;
+    color: white;
     font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
@@ -181,7 +181,7 @@ form{
     text-decoration: none;
     border-radius: 5px;
     background-color: #7fb18b;
-    color: white;
+    color: #000000;
     font-size: 1.1em;
     transition: transform 0.3s;
 }
@@ -255,7 +255,7 @@ form{
 .message {
     background-color:#7f9384;
     box-shadow: 3px 3px 7px rgb(160, 159, 159);
-    color: #e8e2db;
+    color: #333333;
     grid-column: 4/7;
     grid-row:2/4;
     text-align: center;

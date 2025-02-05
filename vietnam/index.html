@@ -1,118 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vietnam travel</title>
-    <link href="styles/style.css" rel="stylesheet">
-</head>
-<body>
-    <div id="content"> 
-        <!-- header-->
-        <header>
-            <div id="company">
-                <a id="logo_link" href="index.html"> 
-                    <img class="logo" src="images/logo.png" alt="Vietnam Travel logo">
-                </a>
-                <p>Vietnam Travel</p>
-            </div>
-            
-            <nav>
-                <a target="_blank" href="index.html">Homepage</a>
-                <a target="_blank" href="destinations.html">Must-visit destinations</a>
-                <a target="_blank" href="tours.html">Vietnam tours</a>
-                <a target="_blank" href="site-plan.html">Site plan</a>
-                <form class="search-form" action="https://www.google.com/search" method="get">
-                    <input class="search-bar" type="text" name="query" placeholder="Search">
-                    <button type="submit" class="search-button">
-                        <img class="search-icon" src="images/search.svg" alt="Search">
-                        <span class="toolkit">Search</span>
-                    </button>
-                </form>
-            </nav>
-        </header>
-
-        <div class="welcome">
-            <div id="welcome-box">
-                <img id="welcome-img" src="images/vietnam_homepage_background.jpg" alt="vietnam">
-            </div>
-            <section id="welcome-msg">
-                <h1>Welcome to Vietnam</h1>
-                <p>Vietnam has emerged as an ideal destination for many travelers in recent years. This beautiful country invites visitors to explore its vibrant culture, mouth-watering cuisine, stunning natural landscapes, and unforgettable local experiences. Dive into this page for an overview of Vietnam, including fascinating insights into its culture, food, natural scenery, and the countless reasons why people fall in love with this enchanting country.</p>
-            </section>
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="content">
+      <!-- header-->
+      <header>
+        <div id="company">
+          <a id="logo_link" href="index.html">
+            <img
+              class="logo"
+              src="images/logo.png"
+              alt="Vietnam Travel - Explore Vietnam with us"
+            />
+          </a>
+          <p>Vietnam Travel</p>
         </div>
 
-        <div class="overview">
-            <h3>Vietnam Overview: Learn More About the S-Shaped Country</h3>
-            <a class="join" href="tours.html">View Tours</a>
+        <nav>
+          <a target="_blank" href="index.html">Homepage</a>
+          <a target="_blank" href="destinations.html"
+            >Must-visit destinations</a
+          >
+          <a target="_blank" href="tours.html">Vietnam tours</a>
+          <a target="_blank" href="site-plan.html">Site plan</a>
+          <form
+            class="search-form"
+            action="https://www.google.com/search"
+            method="get"
+          >
+            <input
+              class="search-bar"
+              type="text"
+              name="query"
+              placeholder="Search"
+              aria-label="Search the site"
+            />
+            <button type="submit" class="search-button">
+              <img class="search-icon" src="images/search.svg" alt="Search" />
+              <span class="toolkit">Search</span>
+            </button>
+          </form>
+        </nav>
+      </header>
+
+      <div class="welcome">
+        <div id="welcome-box">
+          <img
+            id="welcome-img"
+            src="images/vietnam_homepage_background.jpg"
+            alt="Scenic landscape of Vietnam with lush mountains and a river"
+          />
+        </div>
+        <section id="welcome-msg">
+          <h1>Welcome to Vietnam</h1>
+          <p>
+            Vietnam has emerged as an ideal destination for many travelers in
+            recent years. This beautiful country invites visitors to explore its
+            vibrant culture, mouth-watering cuisine, stunning natural
+            landscapes, and unforgettable local experiences. Dive into this page
+            for an overview of Vietnam, including fascinating insights into its
+            culture, food, natural scenery, and the countless reasons why people
+            fall in love with this enchanting country.
+          </p>
+        </section>
+      </div>
+
+      <div class="overview">
+        <h3>Vietnam Overview: Learn More About the S-Shaped Country</h3>
+        <a class="join" href="tours.html">View Tours</a>
+      </div>
+
+      <main class="home-grid">
+        <section class="vietnam-culture">
+          <img
+            class="vietnam-img"
+            src="images/vietnam_culture.jpg"
+            alt="The importance of family value in Vietnamese culture"
+          />
+          <div class="message">
+            <h3>Vietnamese culture</h3>
+            <p>
+              Visitors to Vietnam will have the opportunity to experience a
+              vibrant and diverse culture influenced by Confucianism and
+              Buddhism. Community and family values are central to Vietnamese
+              culture, shaping every aspect of the daily life. Vietnam is home
+              to 54 ethnic groups, each with its own unique heritage and
+              lifestyle, adding to the country's rich cultural diversity.
+            </p>
+          </div>
+        </section>
+
+        <section class="vietnam-cuisine">
+          <img
+            class="vietnam-img"
+            src="images/vietnam_food.jpg"
+            alt="The diversity of flavors and ingredients in Vietnamese food."
+          />
+          <div class="message">
+            <h3>Vietnamese cuisine</h3>
+            <p>
+              Vietnamese cuisine has gained worldwide acclaim from food critics
+              for its unique flavors and balance. It combines five fundamental
+              tastes: sweet, salty, bitter, sour, and spicy. Known as a street
+              food haven, Vietnam offers everything from complex dishes like pho
+              and bun bo Hue to lighter, simpler options like spring rolls and
+              banh mi.
+            </p>
+          </div>
+        </section>
+
+        <section class="vietnam-scenery">
+          <img
+            class="vietnam-img"
+            src="images/vietnam_scenery.jpg"
+            alt="Stunning view of terraced rice fields in the Northern Vietnam"
+          />
+          <div class="message">
+            <h3>Vietnamese scenery</h3>
+            <p>
+              Vietnam, a beautiful country in Southeast Asia, is renowned for
+              its breathtaking natural scenery, featuring pristine beaches,
+              soaring mountains, and lush tropical forests. Ha Long Bay, a
+              UNESCO World Heritage site, and Ha Giang, a mountainous province
+              with stunning rice terraces, are must-see destinations for any
+              travel bucket list.
+            </p>
+          </div>
+        </section>
+
+        <div class="reason">
+          <p>
+            There are many reasons to fall in love with Vietnam. Its spectacular
+            landscapes, delicious cuisine, warm and friendly people, and
+            affordable prices all draw visitors to this beautiful, S-shaped
+            country.
+          </p>
+          <p>
+            Visit our website to learn more about
+            <a class="destination-link" href="destinations.html"
+              >Must-visit destinations</a
+            >
+            in Vietnam.
+          </p>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <div class="our-websites">
+          <h3>Our Websites</h3>
+          <p><a target="_blank" href="index.html">Homepage</a></p>
+          <p>
+            <a target="_blank" href="destinations.html"
+              >Must-visit destinations</a
+            >
+          </p>
+          <p><a target="_blank" href="tours.html">Vietnam tours</a></p>
+          <p><a target="_blank" href="site-plan.html">Site plan</a></p>
         </div>
 
-        <main class="home-grid"> 
+        <div class="social">
+          <h3>Contact Us</h3>
+          <a class="social-link" target="_blank" href="https://facebook.com">
+            <img
+              src="images/facebook.png"
+              alt="Facebook logo - Visit our page"
+            />
+          </a>
+          <a class="social-link" target="_blank" href="https://twitter.com">
+            <img
+              src="images/twitter.png"
+              alt="Twitter logo - Follow us for travel updates"
+            />
+          </a>
+          <a class="social-link" target="_blank" href="https://instagram.com">
+            <img
+              src="images/instagram.png"
+              alt="Instagram logo - Discover Vietnam through photos"
+            />
+          </a>
+        </div>
 
-            <section class="vietnam-culture">
-                <img class="vietnam-img" src="images/vietnam_culture.jpg" alt="Vietnamese culture">
-                <div class="message">
-                    <h3>Vietnamese culture</h3>
-                    <p>Visitors to Vietnam will have the opportunity to experience a vibrant and diverse culture influenced by Confucianism and Buddhism. Community and family values are central to Vietnamese culture, shaping every aspect of the daily life. Vietnam is home to 54 ethnic groups, each with its own unique heritage and lifestyle, adding to the country's rich cultural diversity.</p>
-                </div>
-            </section>
-
-            <section class="vietnam-cuisine">
-                <img class="vietnam-img" src="images/vietnam_food.jpg" alt="Vietnamese food">
-                <div class="message">
-                    <h3>Vietnamese cuisine</h3>
-                    <p>Vietnamese cuisine has gained worldwide acclaim from food critics for its unique flavors and balance. It combines five fundamental tastes: sweet, salty, bitter, sour, and spicy. Known as a street food haven, Vietnam offers everything from complex dishes like pho and bun bo Hue to lighter, simpler options like spring rolls and banh mi.</p>
-                </div>
-            </section>
-
-            <section class="vietnam-scenery">
-                <img class="vietnam-img" src="images/vietnam_scenery.jpg" alt="Vietnamese scenery">
-                <div class="message">
-                    <h3>Vietnamese scenery</h3>
-                    <p>Vietnam, a beautiful country in Southeast Asia, is renowned for its breathtaking natural scenery, featuring pristine beaches, soaring mountains, and lush tropical forests. Ha Long Bay, a UNESCO World Heritage site, and Ha Giang, a mountainous province with stunning rice terraces, are must-see destinations for any travel bucket list.</p>
-                </div>
-            </section>
-
-
-            <div class="reason">
-                <p>There are many reasons to fall in love with Vietnam. Its spectacular landscapes, delicious cuisine, warm and friendly people, and affordable prices all draw visitors to this beautiful, S-shaped country.</p>
-                <p>Visit our website to learn more about <a class="destination-link" href="destinations.html">Must-visit destinations</a> in Vietnam.</p>
-            </div>
-        </main>
-
-
-        <!-- footer -->
-        <footer> 
-            <div class="our-websites">
-                <h3>Our Websites</h3>
-                <p> <a target = "_blank" href="index.html">Homepage</a></p>
-                <p> <a target = "_blank" href="destinations.html">Must-visit destinations</a></p>
-                <p> <a target = "_blank" href="tours.html">Vietnam tours</a></p>
-                <p> <a target = "_blank" href="site-plan.html">Site plan</a></p>
-            </div>
-
-            <div class="social">
-                <h3>Contact Us</h3>
-                <a class="social-link" target = "_blank" href="https://facebook.com">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a class="social-link" target = "_blank" href="https://twitter.com">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a class="social-link" target = "_blank" href="https://instagram.com">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-
-            <div class="copy-right">
-                <a id="logo_link1" href="index.html"> 
-                    <img class="logo" src="images/logo.png" alt="Vietnam Travel logo">
-                </a>
-                <p class="name">Vietnam Travel</p>
-                <p> Vietnam travel &copy; 2024 - Thu Dong</p>
-            </div>
-        </footer>
+        <div class="copy-right">
+          <a id="logo_link1" href="index.html">
+            <img
+              class="logo"
+              src="images/logo.png"
+              alt="Vietnam Travel logo - Discover the beauty of Vietnam"
+            />
+          </a>
+          <p class="name">Vietnam Travel</p>
+          <p>Vietnam travel &copy; 2024 - Thu Dong</p>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
-
